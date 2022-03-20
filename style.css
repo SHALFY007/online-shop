@@ -65,3 +65,9 @@
     top: 355px;
     left: 1075px;
 }
+.offer-part {
+    width: 100%;
+    max-width: 1920px;
+    min-height: 2121px;
+    background-color: #e5e5e5;
+}
