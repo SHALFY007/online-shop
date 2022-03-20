@@ -5,7 +5,7 @@
 .navigation-bar {
     width: 100%;
     max-width: 1920px;
-    height: 75px;
+    min-height: 75px;
     background-color: #222222;
     display: flex;
 }
@@ -44,4 +44,24 @@
     position: absolute;
     top: 23px;
     left: 1744px;
+}
+.centre-part {
+    background: #f1e4e6;
+    width: 100%;
+    max-width: 1920px;
+    min-height: 764px;
+    display: flex;
+}
+.img-part {
+    width: 50%;
+}
+.text-part {
+    width: 50%;
+    padding-top: 290px;
+    padding-left: 300px;
+}
+.stick-centre {
+    position: absolute;
+    top: 355px;
+    left: 1075px;
 }
