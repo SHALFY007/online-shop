@@ -71,3 +71,37 @@
     min-height: 2121px;
     background-color: #e5e5e5;
 }
+.list-cards-top {
+    padding-top: 65px;
+    padding-left: 390px;
+    list-style-type: none;
+    display: flex;
+    padding-bottom: 30px;
+}
+.mini-cards-top {
+    display: inline-block;
+    margin-right: 30px;
+}
+.text-women {
+    position: absolute;
+    left: 500px;
+    top: 1010px;
+}
+.text-men {
+    position: absolute;
+    left: 905px;
+    top: 1010px;
+}
+.text-kids {
+    position: absolute;
+    top: 1010px;
+    left: 1300px;
+}
+.big-img-offer {
+    padding-left: 390px;
+}
+.big-text-card {
+    position: absolute;
+    top: 1259px;
+    left: 875px;
+}
