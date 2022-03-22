@@ -52,6 +52,7 @@
     min-height: 764px;
     display: flex;
 }
+
 .img-part {
     width: 50%;
 }
@@ -60,9 +61,38 @@
     padding-top: 290px;
     padding-left: 300px;
 }
+.text-centre {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #222222;
+}
+.text-centre-mini {
+    font-family: "Lato";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: inline-block;
+}
+.text-centre-mini-last {
+    font-family: "Lato";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    color: #f16d7f;
+    display: inline-block;
+}
 .stick-centre {
     position: absolute;
-    top: 355px;
+    top: 370px;
     left: 1075px;
 }
 .offer-part {
