@@ -81,11 +81,37 @@
 .mini-cards-top {
     display: inline-block;
     margin-right: 30px;
+    /*height: 260px;*/
 }
-.text-women {
+
+#first-card {
+    display: flex;
+    flex-direction: column;
+}
+.text-women-1 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    padding-top: 10px;
     position: absolute;
-    left: 500px;
-    top: 1010px;
+    align-self: center;
+    /*padding-left: 103px;*/
+    padding-top: 105px;
+}
+.text-women-2 {
+    color: #f16d7f;
+    align-self: center;
+    font-family: "Lato";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    position: absolute;
+    padding-top: 124px;
 }
 .text-men {
     position: absolute;
