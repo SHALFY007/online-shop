@@ -81,13 +81,11 @@
 .mini-cards-top {
     display: inline-block;
     margin-right: 30px;
+    display: flex;
+    flex-direction: column;
     /*height: 260px;*/
 }
 
-#first-card {
-    display: flex;
-    flex-direction: column;
-}
 .text-women-1 {
     font-family: "Lato";
     font-style: normal;
@@ -113,21 +111,78 @@
     position: absolute;
     padding-top: 124px;
 }
-.text-men {
+.text-men-1 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-self: center;
     position: absolute;
-    left: 905px;
-    top: 1010px;
+    padding-top: 105px;
+    color: #ffffff;
 }
-.text-kids {
+.text-men-2 {
+    font-family: "Lato";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    align-self: center;
+    color: #f16d7f;
     position: absolute;
-    top: 1010px;
-    left: 1300px;
+    padding-top: 124px;
+}
+.text-kids-1 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-self: center;
+    color: #ffffff;
+    position: absolute;
+    padding-top: 105px;
+}
+.text-kids-2 {
+    font-family: "Lato";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    align-self: center;
+    color: #f16d7f;
+    position: absolute;
+    padding-top: 124px;
 }
 .big-img-offer {
     padding-left: 390px;
+    display: flex;
+    flex-direction: column;
+    width: 1140px;
 }
-.big-text-card {
+.big-text-card-1 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-self: center;
+    color: #ffffff;
     position: absolute;
-    top: 1259px;
-    left: 875px;
+    padding-top: 65px;
+}
+.big-text-card-2 {
+    font-family: "Lato";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    align-self: center;
+    color: #f16d7f;
+    position: absolute;
+    padding-top: 85px;
 }
