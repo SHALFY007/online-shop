@@ -55,6 +55,10 @@
 
 .img-part {
     width: 50%;
+    display: flex;
+}
+.img-centre {
+    align-self: center;
 }
 .text-part {
     width: 50%;
@@ -99,7 +103,7 @@
     width: 100%;
     max-width: 1920px;
     min-height: 2121px;
-    background-color: #e5e5e5;
+    background-color: #ffffff;
 }
 .list-cards-top {
     padding-top: 65px;
@@ -215,4 +219,31 @@
     color: #f16d7f;
     position: absolute;
     padding-top: 85px;
+}
+.text-items {
+    margin-top: 96px;
+    display: flex;
+    flex-direction: column;
+}
+.text-new-items {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height */
+
+    color: #222222;
+    align-self: center;
+}
+.text-new-items-mini {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #9f9f9f;
+    align-self: center;
+    margin-top: 6px;
 }
