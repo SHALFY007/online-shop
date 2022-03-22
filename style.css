@@ -59,6 +59,7 @@
 }
 .img-centre {
     align-self: center;
+    /*padding-left: 100px;*/
 }
 .text-part {
     width: 50%;
@@ -246,4 +247,63 @@
     color: #9f9f9f;
     align-self: center;
     margin-top: 6px;
+}
+.new-cards-bottom {
+    padding-left: 390px;
+    padding-top: 48px;
+}
+.list-cards-bottom {
+    width: 1140px;
+    flex-wrap: wrap;
+    list-style-type: none;
+    display: flex;
+}
+.cards-bottom-mini {
+    background: #f8f8f8;
+    height: 581px;
+}
+.card-bottom/*,
+.card-bottom-2,
+.card-bottom-3,
+.card-bottom-4,
+.card-bottom-5,
+.card-bottom-6*/ {
+    height: 581px;
+    text-decoration: none;
+    position: absolute;
+    background: #f8f8f8;
+    /*padding-left: 18px;*/
+}
+.text-card-bottom {
+    padding-left: 18px;
+    padding-top: 25px;
+    padding-bottom: 12px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+    color: #000000;
+}
+.text-card-bottom-mini {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 18px;
+    color: #5d5d5d;
+    padding-bottom: 18px;
+}
+.text-card-bottom-price {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #f16d7f;
+    padding-left: 18px;
+    padding-bottom: 20px;
 }
