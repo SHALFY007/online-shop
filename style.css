@@ -62,17 +62,18 @@
 }
 
 .img-part {
-    width: 50%;
     display: flex;
+    width: 570px;
 }
 .img-centre {
-    align-self: center;
+    position: absolute;
+    left: -207px;
     /*padding-left: 100px;*/
 }
 .text-part {
     width: 50%;
     padding-top: 290px;
-    padding-left: 300px;
+    padding-left: 320px;
 }
 .text-centre {
     font-family: "Lato";
@@ -80,8 +81,19 @@
     font-weight: 900;
     font-size: 48px;
     line-height: 58px;
+    position: relative;
 
     color: #222222;
+}
+.text-centre::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 92px;
+    background-color: #f16d7f;
+    position: absolute;
+    top: 5px;
+    left: -28px;
 }
 .text-centre-mini {
     font-family: "Lato";
