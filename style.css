@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    /*width: 1140px;*/
+}
 .navigation-bar {
     width: 100%;
     max-width: 1920px;
@@ -11,7 +18,7 @@
 }
 .header-left {
     display: flex;
-    margin-left: 390px;
+
     /*padding-top: 18px;*/
     /*outline: 1px solid red;*/
 }
@@ -24,7 +31,8 @@
     padding-top: 28px;
 }
 .header-right {
-    margin-left: 859px;
+    margin-left: 796px;
+
     display: flex;
 }
 .mini-header-right {
@@ -38,12 +46,12 @@
 .img-on-mini-header {
     position: absolute;
     top: 18px;
-    left: 1553px;
+    left: 1100px;
 }
 .img-on-mini-5 {
     position: absolute;
     top: 23px;
-    left: 1559px;
+    left: 1107px;
 }
 .centre-part {
     background: #f1e4e6;
