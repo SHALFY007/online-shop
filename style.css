@@ -128,7 +128,7 @@
 }
 .list-cards-top {
     padding-top: 65px;
-    padding-left: 390px;
+    /*padding-left: 390px;*/
     list-style-type: none;
     display: flex;
     padding-bottom: 30px;
@@ -213,7 +213,7 @@
     padding-top: 124px;
 }
 .big-img-offer {
-    padding-left: 390px;
+    /*padding-left: 390px;*/
     display: flex;
     flex-direction: column;
     width: 1140px;
@@ -269,7 +269,6 @@
     margin-top: 6px;
 }
 .new-cards-bottom {
-    padding-left: 390px;
     padding-top: 48px;
 }
 .list-cards-bottom {
@@ -277,10 +276,15 @@
     flex-wrap: wrap;
     list-style-type: none;
     display: flex;
+    position: relative;
+    justify-content: space-between;
 }
 .cards-bottom-mini {
-    background: #f8f8f8;
+    /*background: #f8f8f8;*/
     height: 581px;
+    width: 360px;
+    margin-bottom: 30px;
+    /*position: relative;*/
 }
 .card-bottom/*,
 .card-bottom-2,
@@ -291,8 +295,12 @@
     height: 581px;
     text-decoration: none;
     position: absolute;
+    /*top: 0px;*/
     background: #f8f8f8;
     /*padding-left: 18px;*/
+}
+.last-card {
+    margin-bottom: 48px;
 }
 .text-card-bottom {
     padding-left: 18px;
@@ -326,4 +334,25 @@
     color: #f16d7f;
     padding-left: 18px;
     padding-bottom: 20px;
+}
+.part-bottom-button {
+    display: flex;
+    height: 47px;
+}
+.bottom-button {
+    width: 211px;
+    height: 47px;
+    border: 1px solid #ff6a6a;
+    background-color: #fff;
+    margin-top: 48px;
+    margin: 0 auto;
+}
+.bottom-button-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #f26376;
 }
