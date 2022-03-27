@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    /*width: 1140px;*/
+}
+.navigation-bar {
+    width: 100%;
+    max-width: 1920px;
+    min-height: 75px;
+    background-color: #222222;
+    display: flex;
+}
+.header-left {
+    display: flex;
+
+    /*padding-top: 18px;*/
+    /*outline: 1px solid red;*/
+}
+.mini-header-left {
+    display: inline-block;
+    padding-right: 41px;
+    padding-top: 18px;
+}
+.mini-header-left:last-child {
+    padding-top: 28px;
+}
+.header-right {
+    margin-left: 796px;
+
+    display: flex;
+}
+.mini-header-right {
+    display: inline-block;
+    padding-right: 33px;
+    padding-top: 26px;
+}
+.mini-header-right:first-child {
+    padding-top: 30px;
+}
+.img-on-mini-header {
+    position: absolute;
+    top: 18px;
+    left: 1100px;
+}
+.img-on-mini-5 {
+    position: absolute;
+    top: 23px;
+    left: 1107px;
+}
+.centre-part {
+    background: #f1e4e6;
+    width: 100%;
+    max-width: 1920px;
+    min-height: 764px;
+    display: flex;
+}
+
+.img-part {
+    display: flex;
+    width: 570px;
+}
+.img-centre {
+    position: absolute;
+    left: -207px;
+    /*padding-left: 100px;*/
+}
+.text-part {
+    width: 50%;
+    padding-top: 290px;
+    padding-left: 320px;
+}
+.text-centre {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    position: relative;
+
+    color: #222222;
+}
+.text-centre::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 92px;
+    background-color: #f16d7f;
+    position: absolute;
+    top: 5px;
+    left: -28px;
+}
+.text-centre-mini {
+    font-family: "Lato";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: inline-block;
+}
+.text-centre-mini-last {
+    font-family: "Lato";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    color: #f16d7f;
+    display: inline-block;
+}
+.stick-centre {
+    position: absolute;
+    top: 370px;
+    left: 1075px;
+}
+.offer-part {
+    width: 100%;
+    max-width: 1920px;
+    min-height: 2121px;
+    background-color: #ffffff;
+}
+.list-cards-top {
+    padding-top: 65px;
+    /*padding-left: 390px;*/
+    list-style-type: none;
+    display: flex;
+    padding-bottom: 30px;
+}
+.mini-cards-top {
+    display: inline-block;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    /*height: 260px;*/
+}
+
+.text-women-1 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    padding-top: 10px;
+    position: absolute;
+    align-self: center;
+    /*padding-left: 103px;*/
+    padding-top: 105px;
+}
+.text-women-2 {
+    color: #f16d7f;
+    align-self: center;
+    font-family: "Lato";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    position: absolute;
+    padding-top: 124px;
+}
+.text-men-1 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-self: center;
+    position: absolute;
+    padding-top: 105px;
+    color: #ffffff;
+}
+.text-men-2 {
+    font-family: "Lato";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    align-self: center;
+    color: #f16d7f;
+    position: absolute;
+    padding-top: 124px;
+}
+.text-kids-1 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-self: center;
+    color: #ffffff;
+    position: absolute;
+    padding-top: 105px;
+}
+.text-kids-2 {
+    font-family: "Lato";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    align-self: center;
+    color: #f16d7f;
+    position: absolute;
+    padding-top: 124px;
+}
+.big-img-offer {
+    /*padding-left: 390px;*/
+    display: flex;
+    flex-direction: column;
+    width: 1140px;
+}
+.big-text-card-1 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-self: center;
+    color: #ffffff;
+    position: absolute;
+    padding-top: 65px;
+}
+.big-text-card-2 {
+    font-family: "Lato";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    align-self: center;
+    color: #f16d7f;
+    position: absolute;
+    padding-top: 85px;
+}
+.text-items {
+    margin-top: 96px;
+    display: flex;
+    flex-direction: column;
+}
+.text-new-items {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height */
+
+    color: #222222;
+    align-self: center;
+}
+.text-new-items-mini {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #9f9f9f;
+    align-self: center;
+    margin-top: 6px;
+}
+.new-cards-bottom {
+    padding-top: 48px;
+}
+.list-cards-bottom {
+    width: 1140px;
+    flex-wrap: wrap;
+    list-style-type: none;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.cards-bottom-mini {
+    /*background: #f8f8f8;*/
+    height: 581px;
+    width: 360px;
+    margin-bottom: 30px;
+    /*position: relative;*/
+}
+.card-bottom/*,
+.card-bottom-2,
+.card-bottom-3,
+.card-bottom-4,
+.card-bottom-5,
+.card-bottom-6*/ {
+    height: 581px;
+    text-decoration: none;
+    position: absolute;
+    /*top: 0px;*/
+    background: #f8f8f8;
+    /*padding-left: 18px;*/
+}
+.last-card {
+    margin-bottom: 48px;
+}
+.text-card-bottom {
+    padding-left: 18px;
+    padding-top: 25px;
+    padding-bottom: 12px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+    color: #000000;
+}
+.text-card-bottom-mini {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 18px;
+    color: #5d5d5d;
+    padding-bottom: 18px;
+}
+.text-card-bottom-price {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #f16d7f;
+    padding-left: 18px;
+    padding-bottom: 20px;
+}
+.part-bottom-button {
+    display: flex;
+    height: 47px;
+}
+.bottom-button {
+    width: 211px;
+    height: 47px;
+    border: 1px solid #ff6a6a;
+    background-color: #fff;
+    margin-top: 48px;
+    margin: 0 auto;
+}
+.bottom-button-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #f26376;
+}
+.part-advantages {
+    /*margin-top: 95px;*/
+    background-color: #222224;
+    width: 100%;
+    max-width: 1920px;
+    height: 341px;
+    /*padding-top: 105px;*/
+}
+.advantages-list {
+    list-style-type: none;
+    display: flex;
+}
+.advantages-mini {
+    width: 360px;
+    height: 134px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 103px;
+}
+.advantages-img {
+    margin: 0 auto;
+}
+.header-advantages {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.96px;
+    line-height: 24px;
+    /* identical to box height */
+
+    color: #fbfbfb;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+.advantages-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #5d5d5d;
+    margin: 0 auto;
+}
