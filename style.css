@@ -512,3 +512,48 @@
 
     color: #ffffff;
 }
+.bottom-part-footer {
+    width: 100%;
+    max-width: 1920px;
+    height: 79px;
+    background: #222224;
+}
+.bottom-footer-text {
+    width: 332px;
+    margin-right: 655px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #fbfbfb;
+    padding-top: 30px;
+}
+.soc-net-link {
+    width: 160px;
+    height: 32px;
+    padding-top: 24px;
+}
+.link-list {
+    list-style-type: none;
+    display: flex;
+}
+.link-list-mini {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    background-color: #fff;
+}
+.image-link-footer {
+    padding-top: 8px;
+    padding-left: 11px;
+}
+.icon-footer-link {
+    width: 15px;
+    height: 15px;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+.soc-net-link-mini {
+}
