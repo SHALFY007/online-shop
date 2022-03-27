@@ -403,3 +403,18 @@
     color: #5d5d5d;
     margin: 0 auto;
 }
+.footer-part {
+    width: 100%;
+    max-width: 1920px;
+    height: 527px;
+}
+.top-part-footer {
+    width: 100%;
+    max-width: 1920px;
+    height: 448px;
+    background-color: rgba(244, 244, 244, 0.7);
+    background-repeat: no-repeat;
+    background-image: url(image/Layer41.jpg);
+}
+.left-part-footer {
+}
