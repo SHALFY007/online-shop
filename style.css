@@ -412,9 +412,103 @@
     width: 100%;
     max-width: 1920px;
     height: 448px;
-    background-color: rgba(244, 244, 244, 0.7);
     background-repeat: no-repeat;
-    background-image: url(image/Layer41.jpg);
+    background-image: url(image/photosubscribe.jpg);
+    background-size: cover;
 }
 .left-part-footer {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    padding-top: 97px;
+    margin-right: 223px;
+}
+.img-part-footer {
+    margin: 0 auto;
+    width: 96px;
+    height: 96px;
+    background-repeat: no-repeat;
+    background-image: url("image/Intersect.png");
+}
+.left-part-footer-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #222224;
+    margin-top: 30px;
+}
+.right-part-footer {
+    margin-top: 150px;
+    width: 557px;
+    height: 142px;
+    /*outline: 1px solid red;*/
+}
+.top-right-part-footer {
+    /*outline: 1px solid black;*/
+    height: 61px;
+    margin-bottom: 32px;
+}
+.big-right-footer-text {
+    display: block;
+    font-family: "Lato";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.mini-right-footer-text {
+    font-family: "Lato";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.bottom-right-part-footer {
+    display: flex;
+}
+.input-btn-footer {
+    height: 49px;
+    margin: 0 auto;
+    position: relative;
+}
+.input-right-part-footer {
+    margin-right: 0;
+    position: absolute;
+    left: -174px;
+    width: 256px;
+    height: 49px;
+    background: #e1e1e1;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.bottom-right-footer-btn {
+    position: absolute;
+    left: 82px;
+    width: 100px;
+    height: 49px;
+    border: none;
+    background: #f16d7f;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.button-footer-text {
+    display: block;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
 }
