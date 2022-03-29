@@ -286,6 +286,44 @@
     margin-bottom: 30px;
     /*position: relative;*/
 }
+.cards-bottom-mini:hover .img-hover {
+    filter: brightness(30%);
+}
+.img-hover-card {
+    position: relative;
+}
+.hover-button-card {
+    display: none;
+    position: absolute;
+    left: 111px;
+    top: 188px;
+    width: 138px;
+    height: 43px;
+    border: 1px solid #ffffff;
+    background: transparent;
+}
+.mini-image-button-hover {
+    position: absolute;
+    top: 10px;
+    left: 13px;
+}
+.hover-button-card-text {
+    display: block;
+    top: 12px;
+    right: 15px;
+    position: absolute;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #ffffff;
+}
+.cards-bottom-mini:hover .hover-button-card {
+    display: block;
+}
 .card-bottom/*,
 .card-bottom-2,
 .card-bottom-3,
