@@ -484,6 +484,7 @@
     position: absolute;
     left: -174px;
     width: 256px;
+    transition: width 1s ease;
     height: 49px;
     background: #e1e1e1;
     border: none;
@@ -556,4 +557,13 @@
     padding-left: 8px;
 }
 .soc-net-link-mini {
+}
+.link-list-mini:hover {
+    background-color: #f16d7f;
+}
+.link-list-mini:hover .icon-footer-link {
+    fill: #f1e4e6;
+}
+.icon-footer-link {
+    fill: #000000;
 }
