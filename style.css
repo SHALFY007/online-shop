@@ -34,6 +34,7 @@
     margin-left: 796px;
 
     display: flex;
+    position: relative;
 }
 .mini-header-right {
     display: inline-block;
@@ -43,6 +44,7 @@
 .mini-header-right:first-child {
     padding-top: 30px;
 }
+
 .img-on-mini-header {
     position: absolute;
     top: 18px;
@@ -59,6 +61,76 @@
     max-width: 1920px;
     min-height: 764px;
     display: flex;
+    position: relative;
+}
+.drop-menu:hover .menu-hover-block {
+    opacity: 1;
+}
+.menu-hover-block {
+    opacity: 0;
+    z-index: 999;
+    position: absolute;
+    box-sizing: border-box;
+    right: -198%;
+    top: 75px;
+    width: 232px;
+    height: 764px;
+    padding-left: 34px;
+    padding-top: 37px;
+    padding-bottom: 157px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(58, 56, 56, 0.5);
+}
+.menu-header-mini {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #f16d7f;
+    margin-bottom: 12px;
+}
+.menu-header {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #000000;
+    margin-bottom: 24px;
+}
+.menu-link {
+    text-decoration: none;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #6f6e6e;
+}
+.last-link-menu {
+    padding-bottom: 8px;
+}
+.menu-header-list {
+    list-style-type: none;
+}
+.menu-header-list-mini {
+    padding-left: 21px;
+    margin-bottom: 11px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #6f6e6e;
 }
 
 .img-part {
@@ -385,6 +457,18 @@
     margin-top: 48px;
     margin: 0 auto;
 }
+.bottom-button:hover {
+    background-color: #f16d7f;
+}
+.bottom-button-text:hover {
+    color: #fff;
+}
+.bottom-button:active {
+    background-color: #fff;
+}
+.bottom-button-text:active {
+    color: #f16d7f;
+}
 .bottom-button-text {
     font-family: "Lato";
     font-style: normal;
@@ -604,4 +688,10 @@
 }
 .icon-footer-link {
     fill: #000000;
+}
+.link-list-mini:active .icon-footer-link {
+    fill: #000000;
+}
+.link-list-mini:active {
+    background-color: #fff;
 }
