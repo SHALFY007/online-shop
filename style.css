@@ -695,6 +695,9 @@
 .link-list-mini:active {
     background-color: #fff;
 }
+.main-part {
+    height: 2684px;
+}
 .news-part {
     width: 100%;
     max-width: 1920px;
@@ -738,4 +741,52 @@
     text-align: left;
 
     color: #f16d7f;
+}
+.filter-part-offer {
+    height: 133px;
+    padding-top: 51px;
+    display: flex;
+}
+.header-filter-mini {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #000000;
+}
+.filter-offer-image {
+    margin-left: 10px;
+    padding-top: 4px;
+}
+.filter-offer-list {
+    margin-left: 304px;
+    list-style-type: none;
+    display: flex;
+}
+.filter-offer-list-mini {
+    margin-right: 28px;
+}
+.basic-filter-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #6f6e6e;
+}
+.link-offer-mini {
+    text-decoration: none;
+    display: flex;
+}
+.switching-page {
+    margin: 0 auto;
+    width: 284px;
+    height: 44px;
+    border: 1px solid #ebebeb;
+    margin-bottom: 96px;
 }
