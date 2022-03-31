@@ -789,4 +789,44 @@
     height: 44px;
     border: 1px solid #ebebeb;
     margin-bottom: 96px;
+    display: flex;
+    padding-left: 16px;
+}
+.switching-page-img {
+    padding-top: 15px;
+}
+.switching-list {
+    display: flex;
+    list-style-type: none;
+    padding-top: 12px;
+    padding-left: 17px;
+}
+.switching-list-block {
+    width: 202px;
+}
+.switching-list-mini {
+    padding-right: 20px;
+}
+.switching-list-mini:last-child {
+    padding-right: 0;
+}
+.switching-page-img:last-child {
+    padding-right: 16px;
+}
+.choose-switching-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #f16d7f;
+}
+.switching-list-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #c4c4c4;
 }
