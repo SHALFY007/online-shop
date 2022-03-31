@@ -1,0 +1,832 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    /*width: 1140px;*/
+}
+.navigation-bar {
+    width: 100%;
+    max-width: 1920px;
+    min-height: 75px;
+    background-color: #222222;
+    display: flex;
+}
+.header-left {
+    display: flex;
+
+    /*padding-top: 18px;*/
+    /*outline: 1px solid red;*/
+}
+.mini-header-left {
+    display: inline-block;
+    padding-right: 41px;
+    padding-top: 18px;
+}
+.mini-header-left:last-child {
+    padding-top: 28px;
+}
+.header-right {
+    margin-left: 796px;
+
+    display: flex;
+    position: relative;
+}
+.mini-header-right {
+    display: inline-block;
+    padding-right: 33px;
+    padding-top: 26px;
+}
+.mini-header-right:first-child {
+    padding-top: 30px;
+}
+
+.img-on-mini-header {
+    position: absolute;
+    top: 18px;
+    left: 1100px;
+}
+.img-on-mini-5 {
+    position: absolute;
+    top: 23px;
+    left: 1107px;
+}
+.centre-part {
+    background: #f1e4e6;
+    width: 100%;
+    max-width: 1920px;
+    min-height: 764px;
+    display: flex;
+    position: relative;
+}
+.drop-menu:hover .menu-hover-block {
+    opacity: 1;
+}
+.menu-hover-block {
+    opacity: 0;
+    z-index: 999;
+    position: absolute;
+    box-sizing: border-box;
+    right: -198%;
+    top: 75px;
+    width: 232px;
+    height: 764px;
+    padding-left: 34px;
+    padding-top: 37px;
+    padding-bottom: 157px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(58, 56, 56, 0.5);
+}
+.menu-header-mini {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #f16d7f;
+    margin-bottom: 12px;
+}
+.menu-header {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #000000;
+    margin-bottom: 24px;
+}
+.menu-link {
+    text-decoration: none;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #6f6e6e;
+}
+.last-link-menu {
+    padding-bottom: 8px;
+}
+.menu-header-list {
+    list-style-type: none;
+}
+.menu-header-list-mini {
+    padding-left: 21px;
+    margin-bottom: 11px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #6f6e6e;
+}
+
+.img-part {
+    display: flex;
+    width: 570px;
+}
+.img-centre {
+    position: absolute;
+    left: -207px;
+    /*padding-left: 100px;*/
+}
+.text-part {
+    width: 50%;
+    padding-top: 290px;
+    padding-left: 320px;
+}
+.text-centre {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    position: relative;
+
+    color: #222222;
+}
+.text-centre::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 92px;
+    background-color: #f16d7f;
+    position: absolute;
+    top: 5px;
+    left: -28px;
+}
+.text-centre-mini {
+    font-family: "Lato";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: inline-block;
+}
+.text-centre-mini-last {
+    font-family: "Lato";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    color: #f16d7f;
+    display: inline-block;
+}
+.stick-centre {
+    position: absolute;
+    top: 370px;
+    left: 1075px;
+}
+.offer-part {
+    width: 100%;
+    max-width: 1920px;
+    min-height: 2121px;
+    background-color: #ffffff;
+}
+.list-cards-top {
+    padding-top: 65px;
+    /*padding-left: 390px;*/
+    list-style-type: none;
+    display: flex;
+    padding-bottom: 30px;
+}
+.mini-cards-top {
+    display: inline-block;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    /*height: 260px;*/
+}
+
+.text-women-1 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    padding-top: 10px;
+    position: absolute;
+    align-self: center;
+    /*padding-left: 103px;*/
+    padding-top: 105px;
+}
+.text-women-2 {
+    color: #f16d7f;
+    align-self: center;
+    font-family: "Lato";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    position: absolute;
+    padding-top: 124px;
+}
+.text-men-1 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-self: center;
+    position: absolute;
+    padding-top: 105px;
+    color: #ffffff;
+}
+.text-men-2 {
+    font-family: "Lato";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    align-self: center;
+    color: #f16d7f;
+    position: absolute;
+    padding-top: 124px;
+}
+.text-kids-1 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-self: center;
+    color: #ffffff;
+    position: absolute;
+    padding-top: 105px;
+}
+.text-kids-2 {
+    font-family: "Lato";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    align-self: center;
+    color: #f16d7f;
+    position: absolute;
+    padding-top: 124px;
+}
+.big-img-offer {
+    /*padding-left: 390px;*/
+    display: flex;
+    flex-direction: column;
+    width: 1140px;
+}
+.big-text-card-1 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-self: center;
+    color: #ffffff;
+    position: absolute;
+    padding-top: 65px;
+}
+.big-text-card-2 {
+    font-family: "Lato";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    align-self: center;
+    color: #f16d7f;
+    position: absolute;
+    padding-top: 85px;
+}
+.text-items {
+    margin-top: 96px;
+    display: flex;
+    flex-direction: column;
+}
+.text-new-items {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height */
+
+    color: #222222;
+    align-self: center;
+}
+.text-new-items-mini {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #9f9f9f;
+    align-self: center;
+    margin-top: 6px;
+}
+.new-cards-bottom {
+    padding-top: 48px;
+}
+.list-cards-bottom {
+    width: 1140px;
+    flex-wrap: wrap;
+    list-style-type: none;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.cards-bottom-mini {
+    /*background: #f8f8f8;*/
+    height: 581px;
+    width: 360px;
+    margin-bottom: 30px;
+    /*position: relative;*/
+}
+.cards-bottom-mini:hover .img-hover {
+    filter: brightness(30%);
+}
+.img-hover-card {
+    position: relative;
+}
+.hover-button-card {
+    display: none;
+    position: absolute;
+    left: 111px;
+    top: 188px;
+    width: 138px;
+    height: 43px;
+    border: 1px solid #ffffff;
+    background: transparent;
+}
+.mini-image-button-hover {
+    position: absolute;
+    top: 10px;
+    left: 13px;
+}
+.hover-button-card-text {
+    display: block;
+    top: 12px;
+    right: 15px;
+    position: absolute;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #ffffff;
+}
+.cards-bottom-mini:hover .hover-button-card {
+    display: block;
+}
+.card-bottom/*,
+.card-bottom-2,
+.card-bottom-3,
+.card-bottom-4,
+.card-bottom-5,
+.card-bottom-6*/ {
+    height: 581px;
+    text-decoration: none;
+    position: absolute;
+    /*top: 0px;*/
+    background: #f8f8f8;
+    /*padding-left: 18px;*/
+}
+.last-card {
+    margin-bottom: 48px;
+}
+.text-card-bottom {
+    padding-left: 18px;
+    padding-top: 25px;
+    padding-bottom: 12px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+    color: #000000;
+}
+.text-card-bottom-mini {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 18px;
+    color: #5d5d5d;
+    padding-bottom: 18px;
+}
+.text-card-bottom-price {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #f16d7f;
+    padding-left: 18px;
+    padding-bottom: 20px;
+}
+.part-bottom-button {
+    display: flex;
+    height: 47px;
+}
+.bottom-button {
+    width: 211px;
+    height: 47px;
+    border: 1px solid #ff6a6a;
+    background-color: #fff;
+    margin-top: 48px;
+    margin: 0 auto;
+}
+.bottom-button:hover {
+    background-color: #f16d7f;
+}
+.bottom-button-text:hover {
+    color: #fff;
+}
+.bottom-button:active {
+    background-color: #fff;
+}
+.bottom-button-text:active {
+    color: #f16d7f;
+}
+.bottom-button-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #f26376;
+}
+.part-advantages {
+    /*margin-top: 95px;*/
+    background-color: #222224;
+    width: 100%;
+    max-width: 1920px;
+    height: 341px;
+    /*padding-top: 105px;*/
+}
+.advantages-list {
+    list-style-type: none;
+    display: flex;
+}
+.advantages-mini {
+    width: 360px;
+    height: 134px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 103px;
+}
+.advantages-img {
+    margin: 0 auto;
+}
+.header-advantages {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.96px;
+    line-height: 24px;
+    /* identical to box height */
+
+    color: #fbfbfb;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+.advantages-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #5d5d5d;
+    margin: 0 auto;
+}
+.footer-part {
+    width: 100%;
+    max-width: 1920px;
+    height: 527px;
+}
+.top-part-footer {
+    width: 100%;
+    max-width: 1920px;
+    height: 448px;
+    background-repeat: no-repeat;
+    background-image: url(image/photosubscribe.jpg);
+    background-size: cover;
+}
+.left-part-footer {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    padding-top: 97px;
+    margin-right: 223px;
+}
+.img-part-footer {
+    margin: 0 auto;
+    width: 96px;
+    height: 96px;
+    background-repeat: no-repeat;
+    background-image: url("image/Intersect.png");
+}
+.left-part-footer-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #222224;
+    margin-top: 30px;
+}
+.right-part-footer {
+    margin-top: 150px;
+    width: 557px;
+    height: 142px;
+    /*outline: 1px solid red;*/
+}
+.top-right-part-footer {
+    /*outline: 1px solid black;*/
+    height: 61px;
+    margin-bottom: 32px;
+}
+.big-right-footer-text {
+    display: block;
+    font-family: "Lato";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.mini-right-footer-text {
+    font-family: "Lato";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.bottom-right-part-footer {
+    display: flex;
+}
+.input-btn-footer {
+    height: 49px;
+    margin: 0 auto;
+    position: relative;
+}
+.input-right-part-footer {
+    margin-right: 0;
+    position: absolute;
+    left: -174px;
+    width: 256px;
+    transition: width 1s ease;
+    height: 49px;
+    background: #e1e1e1;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.bottom-right-footer-btn {
+    position: absolute;
+    left: 82px;
+    width: 100px;
+    height: 49px;
+    border: none;
+    background: #f16d7f;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.button-footer-text {
+    display: block;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+}
+.bottom-part-footer {
+    width: 100%;
+    max-width: 1920px;
+    height: 79px;
+    background: #222224;
+}
+.bottom-footer-text {
+    width: 332px;
+    margin-right: 655px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #fbfbfb;
+    padding-top: 30px;
+}
+.soc-net-link {
+    width: 160px;
+    height: 32px;
+    padding-top: 24px;
+}
+.link-list {
+    list-style-type: none;
+    display: flex;
+}
+.link-list-mini {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    background-color: #fff;
+}
+.image-link-footer {
+    padding-top: 8px;
+    padding-left: 11px;
+}
+.icon-footer-link {
+    width: 15px;
+    height: 15px;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+.soc-net-link-mini {
+}
+.link-list-mini:hover {
+    background-color: #f16d7f;
+}
+.link-list-mini:hover .icon-footer-link {
+    fill: #f1e4e6;
+}
+.icon-footer-link {
+    fill: #000000;
+}
+.link-list-mini:active .icon-footer-link {
+    fill: #000000;
+}
+.link-list-mini:active {
+    background-color: #fff;
+}
+.main-part {
+    height: 2684px;
+}
+.news-part {
+    width: 100%;
+    max-width: 1920px;
+    height: 148px;
+    background-color: #f8f3f4;
+    display: flex;
+    align-items: center;
+}
+.news-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    color: #f16d7f;
+}
+.link-section {
+    margin-left: 737px;
+    padding-top: 6px;
+}
+.link-section-mini {
+    text-decoration: none;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #636363;
+}
+.link-section-mini:last-child {
+    font-family: "Lato";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #f16d7f;
+}
+.filter-part-offer {
+    height: 133px;
+    padding-top: 51px;
+    display: flex;
+}
+.header-filter-mini {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #000000;
+}
+.filter-offer-image {
+    margin-left: 10px;
+    padding-top: 4px;
+}
+.filter-offer-list {
+    margin-left: 304px;
+    list-style-type: none;
+    display: flex;
+}
+.filter-offer-list-mini {
+    margin-right: 28px;
+}
+.basic-filter-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #6f6e6e;
+}
+.link-offer-mini {
+    text-decoration: none;
+    display: flex;
+}
+.switching-page {
+    margin: 0 auto;
+    width: 284px;
+    height: 44px;
+    border: 1px solid #ebebeb;
+    margin-bottom: 96px;
+    display: flex;
+    padding-left: 16px;
+}
+.switching-page-img {
+    padding-top: 15px;
+}
+.switching-list {
+    display: flex;
+    list-style-type: none;
+    padding-top: 12px;
+    padding-left: 17px;
+}
+.switching-list-block {
+    width: 202px;
+}
+.switching-list-mini {
+    padding-right: 20px;
+}
+.switching-list-mini:last-child {
+    padding-right: 0;
+}
+.switching-page-img:last-child {
+    padding-right: 16px;
+}
+.choose-switching-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #f16d7f;
+}
+.switching-list-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #c4c4c4;
+}
