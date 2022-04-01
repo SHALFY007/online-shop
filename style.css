@@ -61,7 +61,6 @@
     max-width: 1920px;
     min-height: 764px;
     display: flex;
-    position: relative;
 }
 .drop-menu:hover .menu-hover-block {
     opacity: 1;
@@ -196,7 +195,7 @@
     width: 100%;
     max-width: 1920px;
     min-height: 2121px;
-    background-color: #ffffff;
+    background-color: #f8f3f4;
 }
 .list-cards-top {
     padding-top: 65px;
@@ -747,6 +746,33 @@
     padding-top: 51px;
     display: flex;
 }
+#select-size {
+    border: none;
+    font-family: "Lato";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #6f6e6e;
+}
+.choose-part {
+    position: relative;
+}
+.link-offer-mini:hover .size-block {
+    visibility: visible;
+}
+.size-block {
+    width: 79px;
+    height: 103px;
+    background-color: #fff;
+    /*outline: 1 solid red;*/
+    position: absolute;
+    visibility: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 .header-filter-mini {
     font-family: "Lato";
     font-style: normal;
@@ -757,12 +783,38 @@
 
     color: #000000;
 }
+.link-size {
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #6f6e6e;
+}
+.filter-part-drop {
+    display: flex;
+    width: 360px;
+    height: 531px;
+}
+.filter-part-drop:hover .basic-filter-text {
+    color: #f16d7f;
+}
+.size-list-mini {
+    padding-left: 31px;
+    padding-bottom: 6px;
+}
+.size-list {
+    list-style-type: none;
+    padding-top: 7px;
+}
 .filter-offer-image {
     margin-left: 10px;
     padding-top: 4px;
 }
 .filter-offer-list {
-    margin-left: 304px;
+    margin-left: 326px;
     list-style-type: none;
     display: flex;
 }
