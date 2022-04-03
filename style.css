@@ -1110,3 +1110,19 @@ button:focus-visible {
 
     color: #c4c4c4;
 }
+.product-centre-part {
+    width: 100%;
+    max-width: 1920px;
+    height: 777px;
+    background-color: #f7f7f7;
+    /*padding-top: 365px;
+    box-sizing: border-box;*/
+}
+.product-centre-part-btn {
+    width: 47px;
+    height: 47px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
