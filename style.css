@@ -1112,17 +1112,146 @@ button:focus-visible {
 }
 .product-centre-part {
     width: 100%;
+    position: relative;
     max-width: 1920px;
     height: 777px;
     background-color: #f7f7f7;
-    /*padding-top: 365px;
-    box-sizing: border-box;*/
 }
 .product-centre-part-btn {
     width: 47px;
     height: 47px;
     border: none;
+    position: absolute;
+    top: 365px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.product-centre-part-btn-2 {
+    right: 0px;
+}
+.arrow-product {
+    fill: #000;
+}
+.product-centre-part-btn:hover .arrow-product {
+    fill: #f16d7f;
+}
+.product-img {
+    margin: 0 auto;
+}
+.block-price {
+    position: absolute;
+    top: 922px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.block-price-mini {
+    height: 601px;
+    width: 1140px;
+    background-color: #fff;
+    /*outline: 1px solid red;*/
+    display: flex;
+    flex-direction: column;
+    padding-top: 65px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.top-price-header {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #f16d7f;
+    /*margin: 0 auto;*/
+}
+.top-price-stick {
+    padding-top: 12px;
+    margin: 0 auto;
+}
+.centre-price-header {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #4d4d4d;
+    /*margin: 0 auto;*/
+    padding-top: 12px;
+}
+.centre-price-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #5e5e5e;
+    padding-top: 48px;
+}
+.price-value {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #ef5b70;
+    padding-top: 32px;
+}
+.line-price {
+    margin: 0 auto;
+    padding-top: 65px;
+}
+.price-list {
+    padding-top: 65px;
+    list-style-type: none;
+    display: flex;
+    margin: 0 auto;
+}
+.price-list-mini {
+    margin-right: 42px;
+    position: relative;
+}
+.price-checkbox {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #6f6e6e;
+}
+.checkbox-img {
+    position: absolute;
+    top: 6px;
+    left: 118px;
+}
+.buttom-button-price {
+    height: 48px;
+    position: relative;
+    width: 212px;
+    margin: 0 auto;
+    margin-top: 48px;
+    background-color: #fff;
+    border: 1px solid #ff6a6a;
+}
+.button-price-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #f26376;
+}
+.button-price-image {
+    position: absolute;
+    top: 15px;
+    left: 23px;
 }
