@@ -1276,9 +1276,20 @@ button:focus-visible {
 }
 .centre-cart-list-mini {
     display: flex;
+    position: relative;
+}
+.cart-cancel {
+    position: absolute;
+    top: 28px;
+    right: 22px;
+}
+.cart-cancel:hover {
+    transform: rotate(180deg);
+    transition-duration: 1s;
 }
 .centre-cart-list-img:hover {
     transform: scale(1.2);
+    transition-duration: 0.7s;
 }
 .centre-cart-list-mini:first-child {
     padding-bottom: 40px;
