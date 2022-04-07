@@ -1277,6 +1277,9 @@ button:focus-visible {
 .centre-cart-list-mini {
     display: flex;
 }
+.centre-cart-list-img:hover {
+    transform: scale(1.2);
+}
 .centre-cart-list-mini:first-child {
     padding-bottom: 40px;
 }
