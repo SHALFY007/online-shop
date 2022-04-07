@@ -1255,3 +1255,227 @@ button:focus-visible {
     top: 15px;
     left: 23px;
 }
+.cart-main {
+    min-height: 1146px;
+}
+.cart-centre-part {
+    min-height: 998px;
+    width: 100%;
+    max-width: 1920px;
+    background: #f7f7f7;
+    padding-top: 96px;
+    box-sizing: border-box;
+}
+
+.centre-cart-list {
+    list-style-type: none;
+    min-height: 652px;
+    max-width: 652px;
+    margin-right: 129px;
+    margin-bottom: 72px;
+}
+.centre-cart-list-mini {
+    display: flex;
+}
+.centre-cart-list-mini:first-child {
+    padding-bottom: 40px;
+}
+.centre-cart-list-mini:last-child {
+    margin-top: 72px;
+}
+.centre-cart-list-content {
+    width: 390px;
+    background-color: #fff;
+    padding-top: 22px;
+    padding-left: 31px;
+    box-sizing: border-box;
+}
+.centre-cart-list-header {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #222222;
+    display: block;
+    margin-bottom: 42px;
+}
+.centre-cart-specifications {
+    list-style-type: none;
+}
+.centre-cart-specifications-mini {
+    padding-bottom: 6px;
+    box-sizing: border-box;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #575757;
+}
+.centre-cart-specifications-mini:last-child {
+    padding-bottom: 0px;
+}
+.centre-cart-other-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #f16d7f;
+}
+.amount-cart {
+    /*padding-right: 25px;
+    box-sizing: border-box;*/
+}
+.centre-cart-button {
+    margin-left: 24px;
+    text-decoration: none;
+    width: 43px;
+    height: 24px;
+    padding-left: 16px;
+    padding-top: 1px;
+    padding-right: 16px;
+    padding-bottom: 1px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #656565;
+    border: 1px solid #eaeaea;
+}
+.centre-cart-bottom-button:first-child {
+    margin-right: 193px;
+}
+.centre-cart-bottom-button {
+    width: 234px;
+    height: 49px;
+    background: transparent;
+    border: 1px solid #a4a4a4;
+}
+.centre-cart-bottom-button-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #000000;
+}
+.centre-cart-right {
+    padding-top: 17px;
+    width: 359px;
+}
+.centre-cart-right-header {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #222222;
+    display: block;
+    margin-bottom: 21px;
+}
+.centre-cart-right-list {
+    list-style-type: none;
+}
+.centre-cart-right-list-mini {
+    margin-bottom: 21px;
+}
+.centre-cart-right-list-mini:last-child {
+    margin-bottom: 0px;
+}
+.centre-cart-right-input {
+    border: 1px solid #a4a4a4;
+    padding-top: 12.5px;
+    padding-left: 16px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    width: 359px;
+}
+.centre-cart-right-button {
+    border: 1px solid #a4a4a4;
+    background: transparent;
+    width: 100px;
+    height: 34px;
+}
+.centre-cart-right-button-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+
+    color: #4a4a4a;
+}
+.centre-cart-cheque {
+    width: 360px;
+    height: 214px;
+    background: #f5f3f3;
+    margin-top: 57px;
+    padding-top: 39px;
+}
+.centre-cart-cheque-mini {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+
+    color: #4a4a4a;
+    margin-bottom: 12px;
+    margin-left: 218px;
+}
+.centre-cart-cheque-other-text {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #f16d7f;
+}
+.centre-cart-cheque-big {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #222222;
+    margin-bottom: 21px;
+    margin-left: 153px;
+}
+.centre-cart-cheque-line {
+    height: 1px;
+    width: 275px;
+    background: #e2e2e2;
+    margin: 0 auto;
+    margin-bottom: 17px;
+}
+.centre-cart-cheque-button {
+    height: 50px;
+    width: 273px;
+    background: #f16d7f;
+    border: none;
+    margin: 0 auto;
+    display: block;
+}
+.centre-cart-cheque-button-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #ffffff;
+}
