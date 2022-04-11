@@ -335,6 +335,9 @@
     color: #222222;
     align-self: center;
 }
+.product-main-part {
+    height: 2300px;
+}
 .text-new-items-mini {
     font-family: "Lato";
     font-style: normal;
@@ -346,8 +349,15 @@
     align-self: center;
     margin-top: 6px;
 }
+
+.list-cards-bottom-inline {
+    margin: 0 auto;
+}
 .new-cards-bottom {
     padding-top: 48px;
+}
+.new-cards-bottom:last-child {
+    padding-top: 665px;
 }
 .list-cards-bottom {
     width: 1140px;
@@ -830,6 +840,9 @@ button:focus-visible {
     border: none;
     background-color: transparent;
 }
+.header-advantages-inline {
+    margin-top:19px;
+}
 .list-size-btn-title {
     display: block;
     width: 100%;
@@ -845,6 +858,21 @@ button:focus-visible {
     text-align: left;
     text-transform: uppercase;
     position: relative;
+}
+.header-advantages-inline-second {
+    margin-top: 25px
+}
+.container-inline-index {
+    display: block; 
+}
+.container-inline {
+    height: 341px;
+}
+.under-switching {
+    margin-left: 30px;  
+}
+.advantages-img-inline {
+    margin-bottom: 28px;
 }
 .list-size-btn-title svg {
     fill: #6f6e6e;
@@ -974,6 +1002,9 @@ button:focus-visible {
 .filter-btn:active {
     color: #222224;
 }
+.new-cards-bottom {
+    padding-top: 0;
+}
 .filter-list {
     display: none;
     list-style: none;
@@ -998,7 +1029,14 @@ button:focus-visible {
     color: #ef5b70;
     text-decoration: none;
 }
-.filter-list-item-link::before {
+.filter-list-item-link-bottom {
+    display: block;
+    text-transform: uppercase;
+    color: #6F6E6E;
+    text-decoration: none;
+}
+.filter-list-item-link::before,
+.filter-list-item-link-bottom::before {
     content: "";
     display: block;
     width: 5px;
