@@ -62,11 +62,8 @@
     min-height: 764px;
     display: flex;
 }
-.drop-menu:hover .menu-hover-block {
-    opacity: 1;
-}
 .menu-hover-block {
-    opacity: 0;
+    display: none;
     z-index: 999;
     position: absolute;
     box-sizing: border-box;
@@ -79,6 +76,15 @@
     padding-bottom: 157px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(58, 56, 56, 0.5);
+}
+.drop-menu:hover .menu-hover-block {
+    display: block;
+}
+.drop-menu-img {
+    fill:#E8E8E8;
+}
+.drop-menu:hover .drop-menu-img{
+    fill: #f16d7f;
 }
 .menu-header-mini {
     font-family: "Lato";
@@ -1094,6 +1100,7 @@ button:focus-visible {
     padding-right: 16px;
 }
 .choose-switching-text {
+    text-decoration: none;
     font-family: "Lato";
     font-style: normal;
     font-weight: 300;
@@ -1102,6 +1109,7 @@ button:focus-visible {
     color: #f16d7f;
 }
 .switching-list-text {
+    text-decoration: none;
     font-family: "Lato";
     font-style: normal;
     font-weight: 300;
