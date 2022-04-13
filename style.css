@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+@font-face {
+    font-family: 'Lato';
+    src: url(fonts/Lato/Lato-Regular.ttf);
+    font-weight: 400;
+}
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -1557,4 +1562,77 @@ button:focus-visible {
     line-height: 19px;
 
     color: #ffffff;
+}
+.reg-news-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #F16D7F;
+    text-transform: uppercase;
+}
+.registration-main-part {
+    min-height: 823px;
+}
+.reg-centre-part {
+    display: flex;
+    padding-top: 64px;
+    box-sizing: border-box;
+}
+.reg-centre-part-left {
+    width: 360px;
+    border: 1px solid orange;
+    height: 611px;
+}
+.reg-centre-left-header-top {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #222222;
+    margin-bottom: 20px;
+}
+.reg-centre-left-input-list {
+    list-style-type: none;
+}
+.reg-left-input {
+    padding-top: 13px;
+    padding-left: 17px;
+    padding-bottom: 16px;
+    width: 100%;
+    border: 1px solid #A4A4A4;
+    box-sizing: border-box;
+}
+.reg-centre-left-input-list-mini:first-child {
+    margin-bottom: 21px;
+}
+.reg-left-checkbox {
+    border-radius: 50%;
+    border: 1px solid #A4A4A4;
+    box-sizing: border-box;
+    margin-top: 31px;
+    margin-right: 10px;
+}
+.reg-left-checkbox-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+
+    color: #000000;
+}
+.reg-left-checkbox:last-child {
+    margin-left: 20px;
+}
+.reg-left-checkbox-list {
+    display: flex;
+    list-style-type: none;
+}
+.reg-left-checkbox-list-mini {
+    margin-right: 20px;
 }
