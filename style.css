@@ -632,6 +632,9 @@
     border: none;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    padding-left: 22px;
+    /*padding-top: 7px;*/
+    box-sizing: border-box;
 }
 .bottom-right-footer-btn {
     position: absolute;
