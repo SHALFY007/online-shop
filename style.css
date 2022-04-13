@@ -349,7 +349,11 @@
     align-self: center;
     margin-top: 6px;
 }
+.bread-link {
+    display: flex;
+    list-style-type: none;
 
+}
 .list-cards-bottom-inline {
     margin: 0 auto;
 }
