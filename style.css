@@ -1218,11 +1218,17 @@ button:focus-visible {
     line-height: 17px;
 
     color: #f16d7f;
+    margin-bottom: 12px;
     /*margin: 0 auto;*/
 }
 .top-price-stick {
-    padding-top: 12px;
+    display: block;
     margin: 0 auto;
+    width: 63px;
+    height: 3px;
+    background: #f16d7f;
+    box-sizing: border-box;
+    border: none;
 }
 .centre-price-header {
     font-family: "Lato";
@@ -1255,10 +1261,16 @@ button:focus-visible {
 
     color: #ef5b70;
     padding-top: 32px;
+    margin-bottom: 65px;
 }
 .line-price {
     margin: 0 auto;
-    padding-top: 65px;
+    /*padding-top: 65px;*/
+    width: 641px;
+    height: 0px;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+
 }
 .price-list {
     padding-top: 65px;
