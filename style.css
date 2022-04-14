@@ -7,6 +7,11 @@
     src: url(fonts/Lato/Lato-Regular.ttf);
     font-weight: 400;
 }
+@font-face {
+    font-family: 'Lato';
+    src: url(fonts/Lato/Lato-Light.ttf);
+    font-weight: 300;
+}
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -1583,7 +1588,7 @@ button:focus-visible {
 }
 .reg-centre-part-left {
     width: 360px;
-    border: 1px solid orange;
+    /*border: 1px solid orange;*/
     height: 611px;
 }
 .reg-centre-left-header-top {
@@ -1635,4 +1640,120 @@ button:focus-visible {
 }
 .reg-left-checkbox-list-mini {
     margin-right: 20px;
+}
+.reg-centre-left-header-bottom {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #222222;
+    margin-top: 33px;
+    margin-bottom: 20px;
+}
+.reg-centre-left-input-list-bottom {
+    list-style-type: none;
+}
+.reg-left-input-bottom {
+    padding-top: 13px;
+    padding-left: 17px;
+    padding-bottom: 16px;
+    width: 100%;
+    border: 1px solid #A4A4A4;
+    box-sizing: border-box;
+}
+.reg-centre-left-input-list-mini:first-child {
+    margin-bottom: 21px;
+}
+.reg-left-bottom-text {
+    margin-top: 15px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+
+    color: #B1B1B1;
+}
+.reg-left-bottom-button {
+    width: 167px;
+    height: 50px;
+    background: #F16D7F;
+    border: none;
+    margin-top: 39px;
+    /*padding-top: 16px;*/
+    padding-right: 66px;
+    box-sizing: border-box;
+    position: relative;
+}
+.reg-left-bottom-button-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+.reg-left-bottom-button-image {
+    position: absolute;
+    z-index: 999;
+    right: 23%;
+    top: 41.18%;
+}
+.reg-centre-part-left {
+    margin-right: 128px;
+}
+.reg-centre-part-right {
+    /*border: 1px solid green;*/
+    width: 652px;
+    height: 610px;
+}
+.reg-right-header {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #000000;
+    margin-bottom: 22px;
+
+}
+.reg-right-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+.reg-right-list {
+    list-style-type: none;
+}
+.reg-right-list-mini {
+    background-position: 0 0;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-image: url("image/Vector\(21\).svg");
+}
+.reg-right-list-mini {
+    margin-bottom: 16px;
+}
+.reg-right-list-mini:first-child {
+    margin-top: 21px;
 }
