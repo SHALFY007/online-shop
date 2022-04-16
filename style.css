@@ -1764,7 +1764,7 @@ button:focus-visible {
     margin-left: 333px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1140px) and (min-width:768px) {
     /*body {
         overflow-x: hidden;
     }*/
@@ -1859,7 +1859,7 @@ button:focus-visible {
     }
     .part-advantages  {
         height: 610px;
-        max-width: 768px;
+        /*max-width: 768px;*/
     }
     .advantages-list {
         display: flex;
@@ -1899,7 +1899,7 @@ button:focus-visible {
         flex-direction: column;
     }
 }
-@media (max-width: 375px) {
+@media (min-width: 375px) and (max-width: 767px) {
     /*body {
         overflow-x: hidden;
     }*/
@@ -1926,6 +1926,11 @@ button:focus-visible {
         display: flex;
         flex-direction: column;
         margin: 0 auto;
+        padding-top: 148px;
+        padding-left: 0px;
+    }
+    .text-centre-mini {
+        font-size: 24px;
     }
     .text-centre {
         font-size: 38px;
@@ -1982,7 +1987,7 @@ button:focus-visible {
         padding-bottom: 96px;
     }
     .footer-part {
-        max-width: 375px;
+        max-width: 100%;
     }
     .right-part-footer {
         width: 271px;
@@ -2000,7 +2005,7 @@ button:focus-visible {
     }
     .bottom-part-footer {
         height: 143px;
-        max-width: 375px;
+        max-width: 100%;
     }
     .bottom-footer-text {
         width: 251px;
@@ -2019,7 +2024,7 @@ button:focus-visible {
         padding-top: 0px;
     }
     .main-part {
-        min-height: 6350px;
+        min-height: 6691px;
     }
     .news-text {
         margin: 24px 101px;
@@ -2047,5 +2052,35 @@ button:focus-visible {
     }
     .img-on-mini-5 {
         display: none;
+    }
+    .advantages-mini {
+        padding-top: 48px;
+        padding-right: 0px;
+
+
+    }
+    .advantages-list {
+        flex-direction: column;
+
+    }
+    .part-advantages {
+        height: 610px;
+    }
+    .left-part-footer {
+        padding-top: 54px;
+    }
+    .container-footer-index {
+        flex-direction: column;
+    }
+    .right-part-footer {
+        box-sizing: border-box;
+        padding-top: 59px;
+        margin: 0 auto;
+    }
+    .top-part-footer {
+        height: 550px;
+    }
+    .catalog-container-footer {
+        flex-direction: column;
     }
 }
