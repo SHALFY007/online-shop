@@ -1768,9 +1768,9 @@ button:focus-visible {
 }
 
 @media (max-width: 1140px) and (min-width:768px) {
-    /*body {
+    body {
         overflow-x: hidden;
-    }*/
+    }
     .header-right {
         margin-left: 424px;
     }
@@ -1928,11 +1928,27 @@ button:focus-visible {
     .cart-container-footer {
         flex-direction: column;
     }
+    .reg-centre-part-left {
+        margin-right: 22px;
+        margin-left: 16px;
+    }
+    .reg-centre-part {
+        padding-top: 40px;
+    }
+    .registration-container-footer {
+        flex-direction: column;
+    }
+    .reg-right-text {
+        font-size: 22px;
+    }
+    .reg-news-text {
+        margin-left: 16px;
+    }
 }
 @media (min-width: 375px) and (max-width: 767px) {
-    /*body {
+    body {
         overflow-x: hidden;
-    }*/
+    }
     .container {
         width: 375px;
     }
@@ -2194,6 +2210,27 @@ button:focus-visible {
         height: 32px;
     }
     .cart-container-footer {
+        flex-direction: column;
+    }
+    .reg-news-text {
+        margin: 0 auto;
+    }
+    .registartion-container-top {
+        flex-direction: column;
+    }
+    .reg-right-text {
+        font-size: 16px;
+        line-height: 19px;
+        width: 357px;
+    }
+    .reg-right-list-mini {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .registration-main-part {
+        height: 1211px;
+    }
+    .registration-container-footer {
         flex-direction: column;
     }
 }
