@@ -1882,6 +1882,16 @@ button:focus-visible {
         margin-right: 305px;
         width: 251px;
     }
+    .filter-part-offer {
+        padding-top: 24px;
+        height: 10px;
+    }
+    .main-part {
+        min-height: 4000px;
+    }
+    .catalog-container-footer {
+        flex-direction: column;
+    }
 }
 @media (max-width: 375px) {
     body {
