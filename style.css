@@ -1757,3 +1757,123 @@ button:focus-visible {
 .reg-right-list-mini:first-child {
     margin-top: 21px;
 }
+
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .header-right {
+        margin-left: 424px;
+    }
+    .img-on-mini-header{
+        left: 729px;
+    }
+    .img-on-mini-5 {
+        left: 736px;
+    }
+    .container {
+        width: 768px;
+    }
+    .centre-part {
+        min-height: 368px;
+    }
+    .img-centre {
+        height: 368px;
+        left: -18px;
+    }
+    .text-part {
+        padding-top: 138px;
+        padding-left: 0px;
+    }
+    .text-centre-mini-last,
+    .text-centre-mini {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .list-cards-top {
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+    .mini-cards-top {
+        margin-right: 20px;
+        width: 232px;
+        height: 167px;
+    }
+    .text-part-img {
+        width: 232px;
+        height: 167px; 
+    }
+    .text-women-1 {
+        padding-top: 57px;
+    }
+    .text-women-2 {
+        padding-top: 79px;
+    }
+    .text-men-1 {
+        padding-top: 57px;
+    }
+    .text-men-2 {
+        padding-top: 79px;
+    }
+    .text-kids-1 {
+        padding-top: 57px;
+    }
+    .text-kids-2 {
+        padding-top: 79px;
+    }
+    .text-part-img-big {
+        width: 734px;
+        height: 116px;
+    }
+    .big-img-offer {
+        width: 734px;
+        padding-left: 10px;
+    }
+    .text-items {
+        margin-top: 154px;
+    }
+    .list-cards-bottom {
+        max-width: 768px;
+        margin-top: 73px;
+    }
+    .cards-bottom-mini {
+        margin-right: 16px;
+        margin-bottom: 17px;
+    }
+    .part-bottom-button {
+        padding-bottom: 62px;
+        margin-top: 32px;
+    }
+    .part-advantages  {
+        height: 610px;
+        max-width: 768px;
+    }
+    .advantages-list {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto
+    }
+    .advantages-mini {
+        padding-top: 48px;
+    }
+    .container-footer-index {
+        flex-direction: column;
+    }
+    .left-part-footer {
+        margin: 0 auto;
+        padding-top: 53px;
+    }
+    .right-part-footer {
+        padding-top: 48px;
+        margin: 0 auto;
+    }
+    .top-part-footer {
+        height: 610px;
+    }
+    .bottom-footer-text {
+        margin-left: 32px;
+        margin-right: 305px;
+        width: 251px;
+    }
+}
