@@ -1713,6 +1713,9 @@ button:focus-visible {
     width: 652px;
     height: 610px;
 }
+.filter-mobile {
+    display: none;
+}
 .reg-right-header {
     font-family: 'Lato';
     font-style: normal;
@@ -1757,11 +1760,14 @@ button:focus-visible {
 .reg-right-list-mini:first-child {
     margin-top: 21px;
 }
+.link-section {
+    margin-left: 333px;
+}
 
 @media (max-width: 768px) {
-    body {
+    /*body {
         overflow-x: hidden;
-    }
+    }*/
     .header-right {
         margin-left: 424px;
     }
@@ -1894,9 +1900,9 @@ button:focus-visible {
     }
 }
 @media (max-width: 375px) {
-    body {
+    /*body {
         overflow-x: hidden;
-    }
+    }*/
     .container {
         width: 375px;
     }
@@ -2011,5 +2017,35 @@ button:focus-visible {
         top: 43px;
         left: 114px;
         padding-top: 0px;
+    }
+    .main-part {
+        min-height: 6350px;
+    }
+    .news-text {
+        margin: 24px 101px;
+    }
+    .catalog-container-top {
+        flex-direction: column;
+    }
+    .link-section {
+        margin: 0 auto;
+    }
+    .filter-offer-list {
+        margin-left: 64px;
+        position: absolute;
+        z-index: 999;
+    }
+    .filter {
+        display: none;
+    }
+    .filter-mobile {
+        display: block;
+        margin-left: 8px;
+    }
+    .img-on-mini-header {
+        display: none;
+    }
+    .img-on-mini-5 {
+        display: none;
     }
 }
