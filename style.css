@@ -2101,4 +2101,35 @@ button:focus-visible {
     .catalog-container-footer {
         flex-direction: column;
     }
+    .link-section-product {
+        margin: 0 auto;
+    }
+    .product-container-top {
+        flex-direction: column;
+    }
+    .product-img {
+        width: 374px;
+        height: 454px;
+    }
+    .product-centre-part {
+        padding-top: 85px;
+        height: 624px;
+        box-sizing: border-box;
+    }
+    .product-centre-part-btn {
+        top: 288px;
+        z-index: 999;
+    }
+    .block-price {
+        left: -220px;
+    }
+    .list-cards-bottom-inline {
+        margin-top: 129px;
+    }
+    .product-main-part {
+        height: 3369px;
+    }
+    .product-container-footer {
+        flex-direction: column;
+    }
 }
